@@ -1,0 +1,41 @@
+@media screen and (max-width: 1300px) {
+#hero{
+flex-direction: column;
+display: flex;
+justify-content: center;
+}
+#image-div{
+    justify-content: center;
+    display: flex;
+    margin-left: 20%;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 90px;
+}
+}
+
+@media screen and (max-width: 700px) {
+    .openMenu{
+        display: block;
+    }
+    .main-menu{
+        display: none;
+        height: 80vh;
+        background: inherit;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        transition: all 1s ease;
+    }
+    #container{
+        justify-content: space-between;
+    }
+    .openMenu{
+    margin-left: 60%;
+    }
+}
